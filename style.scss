@@ -1,0 +1,301 @@
+@import "./bootstrap-overrides";
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #141414;
+}
+
+nav {
+  img {
+    width: 100px;
+  }
+  li {
+    font-size: 13px;
+  }
+  button {
+    order: 1;
+  }
+}
+
+.nav-bar-2 {
+  li {
+    list-style: none;
+  }
+  img {
+    width: 35px;
+  }
+}
+
+.under-nav {
+  h1 {
+    font-size: 30px;
+  }
+  .main-list {
+    list-style: none;
+    border: 1px solid grey;
+    padding: 3px;
+  }
+}
+
+.icons {
+  i {
+    border: 1px solid grey;
+    padding-inline: 10px;
+  }
+}
+
+main {
+  h1 {
+    color: #dadada;
+    font-size: 25px;
+  }
+}
+
+footer {
+  margin-inline: 25%;
+  margin-top: 100px;
+  .footer-icons {
+    i {
+      color: #808080;
+      margin-right: 20px;
+    }
+  }
+  .row {
+    .footer-column {
+      font-size: 12px;
+      color: #8f8d8d;
+    }
+  }
+  button {
+    color: #8f8d8d;
+    background-color: transparent;
+    border: 1px solid #595959;
+    font-size: 12px;
+    padding-block: 3px;
+  }
+  .copyright {
+    i {
+      font-size: 11px;
+    }
+  }
+}
+
+// ! Profile scss
+.profile-header {
+  img {
+    width: 120px;
+  }
+}
+
+.main-2 {
+  margin-inline: 30%;
+
+  h1 {
+    font-size: 70px;
+    border-bottom: 1px solid #2f2f2f;
+  }
+  .main-div {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+    padding-bottom: 20px;
+  }
+  .position-div {
+    width: 130px;
+    height: 136px;
+
+    img {
+      width: 130px;
+      height: 136px;
+      object-fit: cover;
+    }
+
+    .pencil {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      bottom: -5px;
+      left: 10px;
+    }
+  }
+
+  .account-body {
+    .h2-div {
+      background-color: #666666;
+      width: 20rem;
+      height: 2.5rem;
+      h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+    p {
+      color: #c7cccc;
+      font-size: 20px;
+    }
+    #main-list-2 {
+      list-style: none;
+      border: 1px solid grey;
+      width: 30%;
+    }
+
+    .maturity-settings {
+      border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+      padding-bottom: 20px;
+      h2 {
+        font-size: 20px;
+        color: #c7cccc;
+      }
+      button {
+        background-color: #333333;
+        border: none;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 16px;
+        color: white;
+      }
+      .edit {
+        background-color: transparent;
+        color: #6c6c6c;
+        border: 1px solid #6c6c6c;
+      }
+    }
+    .auto-play-controls {
+      h2 {
+        font-size: 20px;
+        color: #c7cccc;
+      }
+    }
+    .input {
+      input {
+        height: 25px;
+        width: 25px;
+        accent-color: #141414;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .buttons {
+    button {
+      font-size: 20px;
+      padding: 5px 30px;
+      background-color: transparent;
+      color: #6c6c6c;
+      border: 1px solid #6c6c6c;
+      &:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+//! Settings css
+
+.settings-body {
+  background-color: white;
+}
+
+nav {
+  background-color: #141414;
+}
+
+.main-3 {
+  margin-inline: 20%;
+  h1 {
+    font-size: 30px;
+    color: black;
+  }
+  .membership {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    h2 {
+      font-size: 18px;
+      color: #808080;
+    }
+    button {
+      border: none;
+      padding: 10px 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    p {
+      color: #808080;
+    }
+    a {
+      text-decoration: none;
+      color: #0d78eb;
+    }
+
+    .box {
+      border-bottom: 1px solid grey;
+    }
+  }
+}
+
+.plan {
+  border-bottom: 1px solid grey;
+  .plan-2 {
+    width: 200.89px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #808080;
+  }
+
+  p {
+    font-size: 15px;
+    span {
+      font-size: 15px;
+      border: 1px solid black;
+    }
+  }
+}
+
+.settings {
+  border-bottom: 1px solid grey;
+  .plan-2 {
+    width: 200.89px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #808080;
+  }
+
+  p {
+    font-size: 15px;
+    span {
+      font-size: 15px;
+      border: 1px solid black;
+    }
+  }
+}
+
+.profile {
+  .plan-2 {
+    width: 200.89px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #808080;
+  }
+  img {
+    width: 30px;
+  }
+  .divided-links {
+    margin-right: 120px;
+  }
+}
